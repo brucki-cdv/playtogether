@@ -1,0 +1,47 @@
+button{
+    background: rgba(0,0,0,0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #12087C;
+    color: #12087C;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    box-shadow: inset 0px 0px 0px #2F3B47;
+    transition: all 0.5s !important;
+}
+
+.btnBig{
+    width: 12vw;
+    height: 5vh;
+    font-size: 1.4rem;
+}
+
+button:hover{
+    box-shadow: inset 0px -80px 0px #12087C;
+    color:white;
+    fill:white;
+}
+
+.btnSmall{
+    width: 9vw;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.arrowBig{
+    width: 1vw;
+    height: 1vw;
+    float:right;
+    margin-top: 7px;
+    fill: #12087C;
+}
+
+.arrowSmall{
+    float: right;
+    width: 1.2vw;
+    height: 1.2vh;
+    margin-top: 7px;
+    fill: #12087C;
+
+}

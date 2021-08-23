@@ -1,0 +1,10 @@
+
+
+.checkbox{
+    stroke: rgba(0,0,0, .5);
+}
+
+.checkboxText{
+    color: #828282;
+    font-family: 'Source Sans Pro', sans-serif;
+}

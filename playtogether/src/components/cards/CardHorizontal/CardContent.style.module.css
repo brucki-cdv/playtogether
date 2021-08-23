@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 15vw;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+p {
+    margin: 15px;
+}
+
+p:nth-child(odd) {
+    color: #828282;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+

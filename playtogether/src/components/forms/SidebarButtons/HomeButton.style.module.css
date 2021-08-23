@@ -1,0 +1,28 @@
+.btn{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgba(130,130,130,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px #2F3B47;
+    transition: all 0.5s !important;
+}
+
+.btn:hover{
+    box-shadow: inset 0px -80px 0px #12087C;
+    fill:white;
+}
+
+.btnImg{
+    width: 1.5vw;
+    height: 1.5vw;
+    fill: #828282;
+}
+
+
+
+
+

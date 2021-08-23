@@ -1,0 +1,17 @@
+.input{
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(130,130,130,.5);
+    stroke: rgba(0, 0, 0, .15);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 25vw;
+    height: 5.5vh;
+    background: white;
+    padding: 0;
+}
+
+::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    padding-left: 2vh;
+}

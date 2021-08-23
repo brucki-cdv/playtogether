@@ -1,0 +1,15 @@
+.header{
+    font-size: 6vw;
+    padding-bottom: 3vh;
+    width: auto;
+    height: auto;
+}
+
+.horizontalLine{
+    content: "-";
+    background: #828282;
+    height: 0.2vh;
+    width: 70vw;
+}
+
+h1{margin:0; padding:0; text-align: left}

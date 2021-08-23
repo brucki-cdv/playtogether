@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+
+.btn{
+    border-radius: 10px;
+    background: #12087C;
+    color:white;
+    font-size: 0.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 25vw;
+    height: 5.5vh;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
