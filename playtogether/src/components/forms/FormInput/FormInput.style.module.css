@@ -4,14 +4,15 @@
     border: 1px solid rgba(130,130,130,.5);
     stroke: rgba(0, 0, 0, .15);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 25vw;
+    width: 22vw;
     height: 5.5vh;
     background: white;
     padding: 0;
+    margin-bottom: 2vh;
 }
 
 ::placeholder{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.8vw;
     padding-left: 2vh;
 }

@@ -8,7 +8,7 @@ const GoogleLogoButton = (props) => {
         <Fragment>
             <button className={style.btn}>
                 <img className={style.logo} src={logo} alt="Google Logo"/>
-                <p className={style.btnText}>{props.text}</p>
+                {props.text}
             </button>
         </Fragment>
     );

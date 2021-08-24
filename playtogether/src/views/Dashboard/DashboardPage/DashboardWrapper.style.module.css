@@ -1,0 +1,35 @@
+.container{
+    background: #F5F5F5;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+p{
+    color:white;
+}
+
+.box{
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+
+.header{
+    margin-top: 10vh;
+}
+
+.cardsBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin-right: 6vw;
+}
+
+.horizontalCardsBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

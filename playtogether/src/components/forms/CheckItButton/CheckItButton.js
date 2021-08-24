@@ -6,7 +6,7 @@ const CheckItButton = (props) => {
 
     return (
         <Fragment>
-            <button className={props.isBig ? style.btnBig : style.btnSmall}>Sprawdź
+            <button className={`${style.btn} ${props.isBig ? style.btnBig : style.btnSmall}`}>Sprawdź
             <svg className={props.isBig ? style.arrowBig : style.arrowSmall} viewBox="0 1 511 511.999" xmlns="http://www.w3.org/2000/svg">
                 <g>
                     <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12

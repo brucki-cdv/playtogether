@@ -5,16 +5,19 @@
     border: 1px solid rgba(130,130,130,.5);
     stroke: rgba(0, 0, 0, .15);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 25vw;
+    width: 22vw;
     height: 5.5vh;
     background: white;
     padding: 0;
     box-shadow: inset 0px 0px 0px #2F3B47;
     transition: all 0.5s !important;
+    margin-top: 2vh;
+    color:black;
+    cursor: pointer;
 }
 
 .btn:hover{
-    box-shadow: inset 0px -80px 0px #12087C;
+    box-shadow: inset 0px -80px 0px #aba8d7;
 }
 
 .logo{
@@ -28,7 +31,6 @@
     display: flex;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.2rem;
     margin: 1vh;
-
+    color:black;
 }

@@ -9,6 +9,8 @@
     align-items: center;
     box-shadow: inset 0px 0px 0px #2F3B47;
     transition: all 0.5s !important;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .btn:hover{

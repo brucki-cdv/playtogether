@@ -8,7 +8,7 @@ const FacebookLogoButton = (props) => {
         <Fragment>
             <button className={style.btn}>
                 <img className={style.logo} src={logo} alt="Facebook Logo"/>
-                <p className={style.btnText}>{props.text}</p>
+                {props.text}
             </button>
         </Fragment>
     );

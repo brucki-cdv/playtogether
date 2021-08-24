@@ -11,11 +11,12 @@
     margin-left: 1vw;
 }
 
-p {
-    margin: 15px;
+.container p {
+    margin: 10px;
+    color: black;
 }
 
-p:nth-child(odd) {
+.container p:nth-child(odd) {
     color: #828282;
     font-family: 'Source Sans Pro', sans-serif;
 }

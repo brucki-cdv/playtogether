@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border-radius: 10px;
     border: 1px solid rgba(130,130,130,.5);
     stroke: rgba(0, 0, 0, .15);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 25vw;
+    width: 22vw;
     height: 5.5vh;
     background: white;
     padding: 0;
-
+    margin-top: 2vh;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2vw;
 }
 
 .logo{
@@ -17,6 +23,7 @@
     width: 2.5vw;
     margin: 1vh;
     float:left;
+    margin-right: 3vw;
 }
 
 .btnText{
