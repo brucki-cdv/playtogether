@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #828282;
+    font-size: 1vw;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.formInput{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(130,130,130,.5);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 5vw;
+    height: 5vh;
+
+}

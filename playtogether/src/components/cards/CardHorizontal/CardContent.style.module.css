@@ -3,10 +3,11 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: bold;
     word-wrap: break-word;
-    width: 15vw;
+    width: 12vw;
+    height: 18vh;
     text-align: left;
     margin-left: 1vw;
 }

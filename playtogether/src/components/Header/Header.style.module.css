@@ -1,5 +1,5 @@
 .header{
-    font-size: 3.5vw;
+    font-size: 3vw;
     width: auto;
     height: auto;
     margin-bottom: 2vh;
@@ -9,7 +9,7 @@
     content: "-";
     background: #828282;
     height: 0.1vh;
-    width: 60vw;
+    width: 55vw;
 }
 
 h1{margin:0; padding:0; text-align: left}

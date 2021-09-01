@@ -15,7 +15,7 @@ p{
 }
 
 .header{
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 .cardsBox {
@@ -25,11 +25,12 @@ p{
 
 .card{
     margin-right: 6vw;
+    margin-top: 30px;
 }
 
 .horizontalCardsBox{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+
 }

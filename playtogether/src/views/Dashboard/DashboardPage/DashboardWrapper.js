@@ -3,14 +3,17 @@ import FormInput from "../../../components/forms/FormInput/FormInput";
 import Header from "../../../components/Header/Header";
 import CardVertical from "../../../components/cards/CardVertical/CardVertical";
 import CardHorizontal from "../../../components/cards/CardHorizontal/CardHorizontal";
+import ProfileBanner from "../../../components/ProfileBanner/ProfileBanner";
+
 const DashboardWrapper = (props) => {
     return (
         <div className={style.container}>
             <div className={style.box}>
-                <FormInput placeholder="Szukaj"/>
+                <ProfileBanner/>
                 <div className={style.header}>
                     <Header text="Szybki wybor"/>
                 </div>
+
                 <div className={style.cardsBox}>
                     <div className={style.card}>
                         <CardVertical tags="Hala, boisko" header="Piłka Nożna"/>
@@ -21,18 +24,23 @@ const DashboardWrapper = (props) => {
                     <div className={style.card}>
                         <CardVertical tags="Kort, hala" header="Tenis"/>
                     </div>
-                    <div className={style.card}>
-                        <CardVertical tags="Kort, hala" header="Tenis"/>
-                    </div>
                 </div>
                 <div className={style.header}>
                     <Header text="Popularne w twojej okolicy"/>
                 </div>
                 <div className={style.horizontalCardsBox}>
+                    <div className={style.card}>
                         <CardHorizontal/>
+                    </div>
+                    <div className={style.card}>
                         <CardHorizontal/>
+                    </div>
+                    <div className={style.card}>
                         <CardHorizontal/>
+                    </div>
+                    <div className={style.card}>
                         <CardHorizontal/>
+                    </div>
                 </div>
             </div>
         </div>

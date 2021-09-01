@@ -10,7 +10,7 @@ const CardContent = (props) => {
                 <div className={style.horizontalLine}/>
             </div>
             <div className={style.checkItButton}>
-            <CheckItButton isBig={true}/>
+            <CheckItButton isBig={false}/>
             </div>
         </div>
     );

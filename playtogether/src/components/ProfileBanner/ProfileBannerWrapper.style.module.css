@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: baseline;
+    width: 20vw;
+    height: 6vh;
+    background: white;
+    box-shadow: inset 0px 0px 0px #2F3B47;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
