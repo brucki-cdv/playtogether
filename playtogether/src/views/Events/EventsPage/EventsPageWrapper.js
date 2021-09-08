@@ -5,11 +5,15 @@ import Header from "../../../components/Header/Header";
 import FormCheckBox from "../../../components/forms/FormCheckBox/FormCheckBox";
 import FormSortList from "../../../components/forms/FormSortList/FormSortList";
 import CardHorizontal from "../../../components/cards/CardHorizontal/CardHorizontal";
-
+import ProfileBanner from "../../../components/layout/ProfileBanner/ProfileBanner";
 const EventsPageWrapper = (props) => {
     return (
         <div className={style.container}>
+            <div className={style.modalBox}>
+        `       <p> dupa</p>
+            </div>
             <div className={style.box}>
+                <ProfileBanner/>
                 <div className={style.header}>
                     <Header text="Wyszukaj event w okolicy"/>
                 </div>

@@ -1,0 +1,39 @@
+.container{
+
+}
+
+.container .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+    margin-top: 2vh;
+
+}
+
+.categoryContext{
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+}
+
+.categoryContext .category{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+
+}
+
+.categoryContext p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+
+.category .icon{
+    width: 1.5vw;
+    height: 1.5vh;
+    margin-left: 25%;
+}

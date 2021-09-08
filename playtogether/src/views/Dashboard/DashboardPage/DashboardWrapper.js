@@ -3,7 +3,7 @@ import FormInput from "../../../components/forms/FormInput/FormInput";
 import Header from "../../../components/Header/Header";
 import CardVertical from "../../../components/cards/CardVertical/CardVertical";
 import CardHorizontal from "../../../components/cards/CardHorizontal/CardHorizontal";
-import ProfileBanner from "../../../components/ProfileBanner/ProfileBanner";
+import ProfileBanner from "../../../components/layout/ProfileBanner/ProfileBanner";
 
 const DashboardWrapper = (props) => {
     return (

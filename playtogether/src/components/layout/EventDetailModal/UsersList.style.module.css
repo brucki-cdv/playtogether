@@ -1,0 +1,22 @@
+.cotainer{
+
+}
+
+.container .title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+    margin-top: 2vh;
+}
+
+.container .list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.list button{
+    margin-top: 20px;
+}

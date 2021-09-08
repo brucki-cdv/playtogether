@@ -1,4 +1,4 @@
-import image from '../../assets/girl.jpg';
+import image from '../../../assets/girl.jpg';
 import style from './ProfileImage.style.module.css';
 const ProfileImage = (props) => {
     return(
